@@ -1,0 +1,63 @@
+.root {
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-background-color: #ecf0f1;
+}
+
+.button {
+	-fx-background-color: #2c3e50;
+	-fx-padding: 5 10 5 10;
+	-fx-font-size: 14px;
+	-fx-text-fill: white;
+}
+
+.button:hover {
+	-fx-background-color: #34495e;
+}
+
+.text-field {
+	-fx-background-radius: 5px;
+	-fx-text-box-border: transparent;
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-insets: 0;
+    -fx-border-color: #95a5a6;
+    -fx-padding: 5 3 5 3;
+}
+
+#labelPane {
+	-fx-background-color: #2c3e50;
+	-fx-background-radius: 3px;
+	-fx-padding: 0 5 0 5;
+}
+
+#labelPane .label {
+	-fx-text-fill: white;
+}
+
+#save {
+	-fx-background-image: url("./res/002-floppy-disk.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 16 16;
+	-fx-background-position: center;
+}
+
+#copy {
+	-fx-background-image: url("./res/003-copy.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 16 16;
+	-fx-background-position: center;
+}
+
+#upload {
+	-fx-background-image: url("./res/004-upload.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 16 16;
+	-fx-background-position: center;
+}
+
+#cancel {
+	-fx-background-image: url("./res/001-cancel.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 16 16;
+	-fx-background-position: center;
+}
